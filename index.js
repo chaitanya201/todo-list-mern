@@ -10,7 +10,7 @@ const todoRoutes = require("./routes/todo/todoRoutes");
 dotenv.config();
 dbConfig(process.env.DATABASE_URL);
 
-// app level middlewares
+// app level middleware's
 
 // 1. to accept json data
 app.use(express.json());
